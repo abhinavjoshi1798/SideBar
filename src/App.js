@@ -58,27 +58,27 @@ function App() {
               </div>
 
               <div className="listMid">
-                <CiUser className="listMidIcon" />
+                <CiUser className="listMidIcon" style={{fontSize:"20px"}} />
                 <label>My Account</label>
               </div>
               <div className="listMid">
                 <PiNotepad
                   className="listMidIcon"
-                  style={{ color: "#71717a" }}
+                  style={{ color: "#71717a", fontSize:"20px" }}
                 />
                 <label>My Bookings</label>
               </div>
               <div className="listMid">
                 <FaRegHeart
                   className="listMidIcon"
-                  style={{ color: "#71717a" }}
+                  style={{ color: "#71717a",fontSize:"20px" }}
                 />
                 <label>Wishlist</label>
               </div>
               <div className="listMid">
                 <LuUserCheck
                   className="listMidIcon"
-                  style={{ strokeWidth: "1.5px" }}
+                  style={{ strokeWidth: "1.5px",fontSize:"20px" }}
                 />
                 <label>Find Roommates</label>
               </div>
@@ -88,7 +88,7 @@ function App() {
               <div className="listMid">
                 <FaRegLifeRing
                   className="listMidIcon"
-                  style={{ color: "#71717a" }}
+                  style={{ color: "#71717a",fontSize:"20px" }}
                 />
                 <label>Help</label>
               </div>
@@ -96,7 +96,7 @@ function App() {
               <div className="listMid">
                 <CiSettings
                   className="listMidIcon"
-                  style={{ strokeWidth: "1px" }}
+                  style={{ strokeWidth: "1px",fontSize:"20px" }}
                 />
                 <label>Settings</label>
               </div>
@@ -104,7 +104,7 @@ function App() {
               <div className="listMid">
                 <CiLogout
                   className="listMidIcon"
-                  style={{ strokeWidth: "1.5px" }}
+                  style={{ strokeWidth: "1.5px",fontSize:"20px" }}
                 />
                 <label>Logout</label>
               </div>
